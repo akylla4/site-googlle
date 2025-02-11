@@ -6,4 +6,17 @@ a{
     text-decoration: none;
     color: #1f1f1f;
     font-size: 13px;
+    font-family: sans-serif;
+    
+}
+.icone-produtos{
+    width:24px ;
+    fill:#444746 /*preenchimento*/
+}
+.botao-login{
+    background-color: #1a73e8;
+    color:white; 
+    padding :12px 9px;
+    font-weight: 500;
+    border-radius: 40px;
 }
