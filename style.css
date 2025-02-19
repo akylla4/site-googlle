@@ -19,17 +19,41 @@ a{ /*tag link/ancora*/
     width:24px ; /*largura*/
     fill:#444746 /*preenchimento*/
 }
-.botao-login{
-    background-color: #1a73e8; /*cor de plano de fundo*/
-    color:white; /*cor do texto*/
-    padding :12px 9px; /*espaço interno*/
-    font-weight: 500; /*peso da fonte*/
-    border-radius: 40px; /*raio da borda(curvatura)*/
-
-}
-
 footer{
-    background-color: #f2f2f2; /*cor de fundo*/
+background-color: #f2f2f2; /*cor de fundo*/
+    
 }
+    .botao-login{
+        background-color: #1a73e8; /*cor de plano de fundo*/
+        color:white; /*cor do texto*/
+        padding :12px 9px; /*espaço interno*/
+        font-weight: 500; /*peso da fonte*/
+        border-radius: 40px; /*raio da borda(curvatura)*/
+}
+.caixa-rodape{
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.caixa-rodape--borda{
+    border-radius: 1px solid #dadce0;
+}
+.caixa-links{
+    display: flex;
+    gap: 30px; /*espaçamento entre as linhas da div*/
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding: 6px 14px;
+}
+
+
+
+
+
+
 
 
