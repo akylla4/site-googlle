@@ -12,24 +12,34 @@ a{ /*tag link/ancora*/
     text-decoration: none; /*decoração de texto*/
     color: #1f1f1f; /*cor do texto*/
     font-size: 13px; /*tamanho da fonte/texto*/
-    font-family: sans-serif; /*tipo/familia da fonte*/
-    
+    font-family: sans-serif; /*tipo/familia da fonte*/ 
 }
-.icone-produtos{ /*classe icone-produtos*/
-    width:24px ; /*largura*/
-    fill:#444746 /*preenchimento*/
+
+/*MAIN PRINCIPAL*/
+.caixa-pesquisa{
+    display: flex;
+    width: 583px; /*largura*/
+    padding: 10px 14px;
 }
+.icone-lupa{
+    width: 20px; /*largura*/
+    fill:#9aa0a6 /*preenchimento*/
+}
+.icone-teclado{
+width: 28px; /*largura*/
+height: 14px; /*altura*/
+}
+.icone-colorido{
+    width: 24px; /*largura*/
+}
+
+
+
+/*RODAPE*/
 footer{
 background-color: #f2f2f2; /*cor de fundo*/
+}
     
-}
-    .botao-login{
-        background-color: #1a73e8; /*cor de plano de fundo*/
-        color:white; /*cor do texto*/
-        padding :12px 9px; /*espaço interno*/
-        font-weight: 500; /*peso da fonte*/
-        border-radius: 40px; /*raio da borda(curvatura)*/
-}
 .caixa-rodape{
     padding: 15px 30px;
     display: flex;
@@ -42,6 +52,8 @@ background-color: #f2f2f2; /*cor de fundo*/
     display: flex;
     gap: 30px; /*espaçamento entre as linhas da div*/
 }
+
+/*CABEÇALHO*/
 header{
     display: flex;
     justify-content: flex-end;
@@ -49,9 +61,18 @@ header{
     gap: 15px;
     padding: 6px 14px;
 }
+.botao-login{
+        background-color: #1a73e8; /*cor de plano de fundo*/
+        color:white; /*cor do texto*/
+        padding :12px 9px; /*espaço interno*/
+        font-weight: 500; /*peso da fonte*/
+        border-radius: 40px; /*raio da borda(curvatura)*/
+}
 
-
-
+.icone-produtos{ /*classe icone-produtos*/
+    width:24px ; /*largura*/
+    fill:#444746 /*preenchimento*/
+}
 
 
 
